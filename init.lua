@@ -864,6 +864,14 @@ require('lazy').setup({
   { 'github/copilot.vim' },
 
   {
+    'petertriho/nvim-scrollbar',
+    config = function()
+      require('scrollbar').setup()
+      require('scrollbar.handlers.gitsigns').setup()
+    end,
+  },
+
+  {
     'stevearc/oil.nvim',
     ---@module 'oil'
     ---@type oil.SetupOpts
