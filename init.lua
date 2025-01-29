@@ -861,6 +861,8 @@ require('lazy').setup({
 
   { 'sindrets/diffview.nvim' },
 
+  { 'github/copilot.vim' },
+
   {
     'stevearc/oil.nvim',
     ---@module 'oil'
